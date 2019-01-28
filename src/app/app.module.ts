@@ -3,10 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { CommunityComponent } from './community/community.component';
+import { AboutComponent } from './about/about.component';
+import { EventComponent } from './event/event.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    CommunityComponent,
+    AboutComponent,
+    EventComponent
   ],
   imports: [
     BrowserModule,

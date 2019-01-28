@@ -1,0 +1,91 @@
+.community_hero_wrapper-image {
+    background-position: center;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #263a7a;
+}
+
+.community_hero {
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    height: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 230px 0 210px;
+    text-align: center;
+}
+
+
+.community_hero-header {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1240px;
+    font-size: 58px;
+    line-height: 58px;
+    font-weight: 100;
+    color: #fff;
+    margin-bottom: 15px;
+    padding: 0 20px;
+    position: relative;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.community_hero-subheader {
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 300;
+    color: #fff;
+    margin: 0 auto;
+    max-width: 740px;
+    padding: 0 20px;
+    position: relative;
+    width: 100%;
+}
+
+.community_hero-brands {
+    bottom: 0;
+    left: 0;
+    padding: 0 0 30px;
+    position: absolute;
+    right: 0;
+}
+
+.community_hero_wrapper {
+    /* background-color: #2b51c7; */
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+}

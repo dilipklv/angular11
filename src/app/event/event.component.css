@@ -1,0 +1,73 @@
+.event_card-date {
+    color: #161926;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+    display: block;
+}
+
+.event_card-location {
+    color: #161926;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 300;
+    height: 28px;
+    max-width: 100%;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.event_card-title {
+    color: #22409d;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 300;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    max-width: 100%;
+    -webkit-transition: color 200ms;
+    transition: color 200ms;
+}
+
+.events_section-content {
+    max-width: 1240px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.events_section-description {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: center;
+    max-width: 700px;
+    padding-top: 20px;
+}
+
+.title.is-big {
+    font-size: 45px;
+    line-height: 52px;
+    font-weight: 300;
+    color: #262d3d;
+    text-align: center;
+}
+
+.container-fluid_1 {
+    padding-right: 15px; 
+    padding-left: 15px;
+}
+
+.community_hero_wrapper-image {
+    background-position: center;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #263a7a;
+}

@@ -1,0 +1,32 @@
+
+
+          <div style="height:500px;border:1px solid lavender;background-color: blueviolet">
+              
+            </div>
+
+
+
+          <div class="events_section-content"><h2 class="title is-big"><p>HRFI Events Around India</p>
+          </h2><p class="events_section-description">Connect with HRs all over country. See what’s new this week.</p></div>
+
+
+
+<div class="container">
+          <ul *ngFor="let event of events">
+              <div class="card col-lg-3 " style="width:270px; height: 450px;
+                      border: 0px solid lavender; transition: box-shadow 200ms; box-shadow:0 6px 20px 0 rgba(38, 45, 61, 0.3);margin: 10px;">
+                <img class="card-img-top " src="./assets/img/pic1.png" width="270px" height="200px" style="margin: 0 -15px 0 -15px;" alt="Card image cap">
+                <div class="card-body" style="width:250px; height: 230px;border: 0px solid lavender;  padding: 10px;">
+                  <h5 class="card-title event_card-date">{{event.eventDate}}</h5>
+                  <h5 class="card-title event_card-location">{{event.locationCity}}, {{event.locationState}}</h5>
+                  <p class="card-text event_card-title" >{{ event.name}}</p>
+                  <p><a href="#" class="btn btn-primary" role="button" style="position: absolute; left: 20px;bottom: 10px;">More...</a> </p>
+                </div>
+                <div class="card-footer" style="width:250px; height: 40px;border: 0px solid lavender; padding-left: 10px;  padding-bottom: 10px;">
+                    
+                </div>
+              </div>
+
+            </ul>
+
+</div>
